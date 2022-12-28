@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Locobuzz 3.0]">
+  <test thread-count="5" name="Excel Report Mention Email Forward Summary Template Functionality(failed)">
+    <parameter name="user" value="Supervisor"/>
+    <classes>
+      <class name="com.test.java.classes.ExcelReportMentionEmailForwardSummaryFunctionality">
+        <methods>
+          <include name="loadingURL"/>
+          <include name="tearDown"/>
+          <include name="ExcelReport" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.java.classes.ExcelReportMentionEmailForwardSummaryFunctionality -->
+    </classes>
+  </test> <!-- Excel Report Mention Email Forward Summary Template Functionality(failed) -->
+</suite> <!-- Failed suite [Locobuzz 3.0] -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Locobuzz 3.0">
+
+   
+ 	
+	
+   <test name="Excel Report Mention Ticket Workflow Report V2 Template Functionality">
+		<parameter name="user" value="Supervisor" />
+		<classes>
+			<class name="com.test.java.classes.ExcelReportMentionTicketWorkflowReportV2Functionality" />
+		</classes>
+  </test> 
+ 
+   
+	
+
+</suite> <!-- Suite -->
+
